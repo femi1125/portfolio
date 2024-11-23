@@ -1,0 +1,56 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: purple;
+    color: black;
+}
+
+header {
+    background-color: white;
+    color: purple;
+    padding: 10px 0;
+}
+
+.partie1 {
+    text-align: justify;
+}
+
+.partie1 li {
+    margin: 15px;
+}
+
+.partie1 a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.partie1 a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    text-align: justify;
+}
+
+.cv, .passions, .accueil {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px auto;
+    width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+}
+
+h1, h2 {
+    color: purple;
+}
+
+.photo {
+    margin: 20px auto;;
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+}
